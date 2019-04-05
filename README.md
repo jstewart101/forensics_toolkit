@@ -7,8 +7,8 @@ Your personal review
 Your personal notes on usage
 Source URL (if applicable)
 Local Source (if applicable)
-
-### Forensic Imaging
+---
+Forensic Imaging
 ---
 #### FTK Imager
 
