@@ -1,10 +1,10 @@
 # Forensics Toolkit
-Contains forensics tools resources that can be used during a digital forensics investigation. This respository was created for the Digital Forensics class taught at Brigham Young University. 
+This respository was created for the Digital Forensics class taught at Brigham Young University. It contains forensics tools and resources that can be used during a digital forensics investigation. 
 
-## Forensic Imaging
+### Forensic Imaging
 
-## Network Analysis
+### Network Analysis
 
-## Memory Analysis
-## Malware Analysis
+### Memory Analysis
+### Malware Analysis
 
