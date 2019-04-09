@@ -59,3 +59,15 @@ Memory Analysis
 
 Malware Analysis
 ---
+* ### Process Explorer
+    * **Description:** This tool is apart of the Sysinternals toolset and can be used to identify rogue processes that may be associated with Malware found on the system under investigation. You can download the executable [here](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer).
+    * **Review:** I found this tool very easy to use and effective at determining all the processes that are running on a live system. In the case of malware investigation, it is advised to remove the system from the network as to avoid the potential spread of the malware to other devices. After it has been removed from the network, you can use Process Explorer to identify if there are any processes that shouldn't be running on the system.   
+    * **How to use Process Explorer:** 
+         1. Download Process Explorer from the link above
+         2. Install Process Explorer by executing the .exe file
+         3. After it is finished installing, run Process Explorer by searching for the application in the start menu and clicking on it when found. 
+         4. Navigate through the list of processes and narrow down the ones that should and shouldn't be running. 
+            * You can enable "VirusTotal.com" in the "Options" menu, which will allow you to right-click on a process and verify its validity with VirusTotal.com. 
+         
+         See [this link](https://blog.malwarebytes.com/101/2016/05/process-explorer-an-introduction/) for more information on using Process Explorer to hunt down Malware.
+
