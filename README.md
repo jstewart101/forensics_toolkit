@@ -28,8 +28,33 @@ Network Analysis
             * If you need to restart the capture, press the red "Stop" button and then the shark fin to "Start" 
          
          See [this link](https://www.wireshark.org/docs/) for more information on using Wireshark. 
+
 Memory Analysis
 ---
+* ### Autopsy
+    * **Description:** This tool can be used to analyze images gathered previously by tools such as FTK. You can download the executable [here](https://www.sleuthkit.org/autopsy/download.php).
+    * **Review:** I found this tool pretty easy to use, but the images are so large it took a long time to ingest them into Autopsy. Once the images were ingested though, this tool made it simple to navigate around them and search for things that may aid in the investigation. 
+    * **How to use Autopsy:** 
+         1. Download Autopsy from the link above
+         2. Install Autopsy by running the .exe file
+         3. Once Autopsy is running, select the image that you would like to ingest
+            * Note: this may take hours to ingest. I preferred to leave it running overnight since it took so long. 
+         4. After you've ingested the images you want to analyze, navigate around the file structure with the menu on the left-hand side of the application
+            * If you want to analyze multiple images at once, you'll need to ingest them separately. 
+         
+         See [this link](http://www.sleuthkit.org/autopsy/docs/quick/) for more information on using Autopsy.
+
+* ### Volatility
+    * **Description:** This tool can be used to analyze images gathered previously by tools such as FTK. You can download the executable [here](https://www.sleuthkit.org/autopsy/download.php).
+    * **Review:** I found this tool extremely easy to use and very intuitive. There are a lot of things to learn with Wireshark, but with having a basic understanding of networks, most analysts should find this tool easy to use. 
+    * **How to use Wireshark:** 
+         1. Download Wireshark from the link above
+         2. Install Wireshark by running the .exe file
+         3. Once Wireshark is running, select the connection you'd like to capture network traffic on
+         4. After you've clicked on the connection it should start capturing packets on that interface
+            * If you need to restart the capture, press the red "Stop" button and then the shark fin to "Start" 
+         
+         See [this link](https://www.wireshark.org/docs/) for more information on using Wireshark.
 
 Malware Analysis
 ---
