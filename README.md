@@ -45,16 +45,17 @@ Memory Analysis
          See [this link](http://www.sleuthkit.org/autopsy/docs/quick/) for more information on using Autopsy.
 
 * ### Volatility
-    * **Description:** This tool can be used to analyze images gathered previously by tools such as FTK. You can download the executable [here](https://www.sleuthkit.org/autopsy/download.php).
-    * **Review:** I found this tool extremely easy to use and very intuitive. There are a lot of things to learn with Wireshark, but with having a basic understanding of networks, most analysts should find this tool easy to use. 
-    * **How to use Wireshark:** 
-         1. Download Wireshark from the link above
-         2. Install Wireshark by running the .exe file
-         3. Once Wireshark is running, select the connection you'd like to capture network traffic on
-         4. After you've clicked on the connection it should start capturing packets on that interface
-            * If you need to restart the capture, press the red "Stop" button and then the shark fin to "Start" 
+    * **Description:** This tool can be used to analyze memory dumps. You can download the executable [here](https://www.volatilityfoundation.org/26).
+    * **Review:** I found this tool a little difficult to use as it doesn't have a GUI and I had to look up commands to run in it. Once I found some useful commands, I was able analyze the memory dump more efficiently.  
+    * **How to use Volatility:** 
+         1. Download Volatility from the link above
+         2. Navigate to the folder where you installed the .exe file
+         3. Execute volatility by entering the command below:
+            * "E:\volatility_2.4.win.standalone\volatility-2.4.standalone.exe" imageinfo -f name_of_image.raw
+               * Replace "name_of_image.raw" with the name of your memory dump you want to analyze. The command above will return information about the memory dump. 
+         4. You can find a list of commands from their Github page at this [link](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference).
          
-         See [this link](https://www.wireshark.org/docs/) for more information on using Wireshark.
+         See [this link](https://www.howtoforge.com/tutorial/how-to-install-and-use-volatility-memory-forensic-tool/) for more information on using Volatility.
 
 Malware Analysis
 ---
